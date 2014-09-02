@@ -1,0 +1,9 @@
+D:\Osama\Programming\Projects\Machine Learning Image Labeler\Image Labeler\Image Labeler\bin\Debug\Image Labeler.exe.config
+D:\Osama\Programming\Projects\Machine Learning Image Labeler\Image Labeler\Image Labeler\bin\Debug\Image Labeler.exe
+D:\Osama\Programming\Projects\Machine Learning Image Labeler\Image Labeler\Image Labeler\bin\Debug\Image Labeler.pdb
+D:\Osama\Programming\Projects\Machine Learning Image Labeler\Image Labeler\Image Labeler\obj\Debug\Image Labeler.csprojResolveAssemblyReference.cache
+D:\Osama\Programming\Projects\Machine Learning Image Labeler\Image Labeler\Image Labeler\obj\Debug\Image_Labeler.GUI.resources
+D:\Osama\Programming\Projects\Machine Learning Image Labeler\Image Labeler\Image Labeler\obj\Debug\Image_Labeler.Properties.Resources.resources
+D:\Osama\Programming\Projects\Machine Learning Image Labeler\Image Labeler\Image Labeler\obj\Debug\Image Labeler.csproj.GenerateResource.Cache
+D:\Osama\Programming\Projects\Machine Learning Image Labeler\Image Labeler\Image Labeler\obj\Debug\Image Labeler.exe
+D:\Osama\Programming\Projects\Machine Learning Image Labeler\Image Labeler\Image Labeler\obj\Debug\Image Labeler.pdb
