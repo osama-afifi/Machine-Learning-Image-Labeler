@@ -82,9 +82,9 @@ namespace Image_Labeler
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(61, 569);
+            this.button3.Location = new System.Drawing.Point(12, 569);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(87, 31);
+            this.button3.Size = new System.Drawing.Size(142, 31);
             this.button3.TabIndex = 4;
             this.button3.Text = "Save Results";
             this.button3.UseVisualStyleBackColor = true;
@@ -220,7 +220,6 @@ namespace Image_Labeler
             this.pictureBox1.Location = new System.Drawing.Point(287, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1030, 588);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);

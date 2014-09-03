@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -143,11 +144,12 @@ namespace Image_Labeler
                 // labeling
                 int label = (t.positive) ? 1 : 0;
                 var newLine = string.Format(label.ToString());
-                csv.Append(newLine);
+                csv.Append(newLine+'\n');
                 // cropping
                 Image src = Image.FromFile(t.imgDir);
                 Image target = cropImage(src, t.rect);
-                target.Save(Path.Combine(dest, "train_" + i.ToString()));
+
+                target.Save(Path.Combine(dest, "train_" + i.ToString())+".png",ImageFormat.Png);
             }
 
             // label file writing
