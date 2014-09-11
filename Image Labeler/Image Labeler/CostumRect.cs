@@ -3,6 +3,7 @@
     using System.Drawing;
     using System.Drawing.Drawing2D;
     using System.Windows.Forms;
+    using System;
 
     public class CustomPictureBox : PictureBox
     {
@@ -80,6 +81,8 @@
 
         public void CropImage()
         {
+
+
             Bitmap bitmap = new Bitmap(_rectangle.Width, _rectangle.Height);
             using (Graphics graphics = Graphics.FromImage(bitmap))
             {

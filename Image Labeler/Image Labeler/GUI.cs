@@ -128,6 +128,10 @@ namespace Image_Labeler
 
         private static Image cropImage(Image img, Rectangle cropArea)
         {
+            if (cropArea.Right > img.Width)
+                cropArea.Width = img.Width - cropArea.X;
+            if (cropArea.Bottom > img.Height)
+                cropArea.Height = img.Height - cropArea.Y;
             Bitmap bmpImage = new Bitmap(img);
             return bmpImage.Clone(cropArea, bmpImage.PixelFormat);
         }

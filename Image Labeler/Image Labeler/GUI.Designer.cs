@@ -249,7 +249,7 @@ namespace Image_Labeler
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Name = "GUI";
-            this.Text = "Form1";
+            this.Text = "Image Labeler v1.0 by Osama M. Afifi";
             this.Load += new System.EventHandler(this.GUI_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
