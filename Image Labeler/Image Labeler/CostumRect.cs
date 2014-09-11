@@ -17,6 +17,10 @@
         {
             return _rectangle;
         }
+        public void setRect(Rectangle newRect)
+        {
+            _rectangle = newRect;
+        }
         public Point startPoint()
         {
             return _startingPoint;

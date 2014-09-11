@@ -37,6 +37,7 @@ namespace Image_Labeler
                 textBox1.Text = SelectFolder();
 
                 string[] fileList = Directory.GetFiles(textBox1.Text, "*.jpg", SearchOption.TopDirectoryOnly);
+                fileList.Concat(Directory.GetFiles(textBox1.Text, "*.png", SearchOption.TopDirectoryOnly));
                 foreach (string file in fileList)
                     listBox1.Items.Add(file);
 
@@ -176,6 +177,7 @@ namespace Image_Labeler
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             pictureBox1.Image = Image.FromFile(listBox1.SelectedItem.ToString());
+            pictureBox1.setRect(new Rectangle());
             updateItem(listBox1.SelectedIndex);
         }
     }
